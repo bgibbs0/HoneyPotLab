@@ -200,3 +200,14 @@ The total number of failed RDP attempts by location are as follows:</br>
 - Sao Paulo, Brazil - 1 </br>
 - Oregon, United States - 1 </br>
 - Northwestern Federal District, Russia - 1 </br>
+</br>
+
+<h2>Analysis</h2>
+
+With the conclusion of the lab, we can see that it doesn't take very long for a device to be found on the internet, especially if it is not properly hardened. The honeypot vm recieved a total of 6496 failed RDP connection attempts within the 24 hours that it was powered on. </br>
+</br>
+Of those 6496 attempts, 5712 used administrator as the username. </br>
+</br>
+It is crucial that organizations properly harden their devices by limiting inbound communication from external sources. As well as disabling default accounts like administrator. An attacker is eventually going to get in if they have enough time and resources. 
+
+
