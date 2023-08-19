@@ -88,3 +88,35 @@ Azure Virtual Machine: <br/>
 <img src="https://i.imgur.com/AKIAK2w.png"
   </p>
 </br>
+
+Now with the firewall disabled and the vm discoverable, I ran the Powershell script included in Josh Madakor's tutorial. This powershell script filters out the failed RDP attempts and then exports the logs to ipgeolocation.io. ipgeolocation.io is a API that is able to provide country, city, state, province, local, latitude and longitude, country calling code, time zone and much more information all based on the IP address it's given. </br>
+The script then writes the data provided by ipgeolocation.io to a log file located at "C:\ProgramData\failed_rdp.log" on the vm. </br>
+</br>
+With the script running we can that the honeypot vm was already getting failed RDP attempts from an entity in Guangxi, China.
+</br>
+<p align="center">
+Failed RDP Attempts: <br/>
+<img src="https://i.imgur.com/et5Dadr.png"
+  </p>
+</br>
+
+The entity in Guangxi, China is conducting a bruteforce login attempt. This is evident in the different usernames they were trying.</br>
+Some of the attempted usersnames are as follows:</br>
+- admin</br>
+- Administrator</br>
+- lenovo</br>
+- WIN-CQ312NK70UD\mazq</br>
+</br>
+<p align="center">
+Failed RDP Attempts: <br/>
+<img src="https://i.imgur.com/jLK7JjC.png"
+  </p>
+</br>
+
+They even tried logging in with Hanzi characters as captured below. 
+</br>
+<p align="center">
+Failed RDP Attempts: <br/>
+<img src="https://i.imgur.com/0xmFXTP.png"
+  </p>
+</br>
