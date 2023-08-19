@@ -159,6 +159,6 @@ Sentinel Workbook: <br/>
 <img src="https://i.imgur.com/dYtNb5Z.png"
   </p>
   <p align="center">
-<img src="https://i.imgur.com/B9ZNBeQ.png"
+<img src=""
   </p>
 </br>
