@@ -89,7 +89,7 @@ Azure Virtual Machine: <br/>
   </p>
 </br>
 
-Now with the firewall disabled and the vm discoverable, I ran the Powershell script included in Josh Madakor's tutorial. This powershell script filters out the failed RDP attempts and then exports the logs to ipgeolocation.io. ipgeolocation.io is a API that is able to provide country, city, state, province, local, latitude and longitude, country calling code, time zone and much more information all based on the IP address it's given. </br>
+Now with the firewall disabled and the vm discoverable, I ran the Powershell script included in [Josh Madakor's tutorial](https://github.com/joshmadakor1/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1). This powershell script filters out the failed RDP attempts and then exports the logs to ipgeolocation.io. ipgeolocation.io is a API that is able to provide country, city, state, province, local, latitude and longitude, country calling code, time zone and much more information all based on the IP address it's given. </br>
 The script then writes the data provided by ipgeolocation.io to a log file located at "C:\ProgramData\failed_rdp.log" on the vm. </br>
 </br>
 With the script running we can that the honeypot vm was already getting failed RDP attempts from an entity in Guangxi, China.
