@@ -159,6 +159,44 @@ Sentinel Workbook: <br/>
 <img src="https://i.imgur.com/dYtNb5Z.png"
   </p>
   <p align="center">
-<img src=""
+<img src="https://i.imgur.com/cYKLkpN.png"
   </p>
 </br>
+
+With the data sorted, I am now able to plot the data onto a world map. I named the Sentinel Workbook "FAILED_RDP_WORDLMAP"</br>
+As seen below, there are 351 failed RDP attempts from Guangxi, China, 1 failed attempt from Central Federal District, Russia and 1 failed attempt from Colorado, United States. All attempts coming in after 30 minutes of deploying the honeypot vm.
+</br>
+<p align="center">
+FAILED_RDP_WORLDMAP: <br/>
+<img src="https://i.imgur.com/csRiQQD.png"
+  </p>
+</br>
+
+I left the honeypot running for roughly 24 hours to observe what other countries would try to log into the vm. The results are shown below:
+</br>
+<p align="center">
+FAILED_RDP_WORLDMAP: <br/>
+<img src="https://i.imgur.com/57xvR5u.png"
+  </p>
+  
+</br>
+</br>
+
+The total number of failed RDP attempts by location are as follows:</br>
+- Gaborone, Botswana - 2.93k </br>
+- Maharashtra, India - 2.68k </br>
+- Guangxi, China - 351 </br>
+- California, United States - 296 </br>
+- Amman, Jordan - 88 </br>
+- Nevada, United States - 55 </br>
+- Goias, Brazil - 30 </br>
+- Virginia, United States - 19 </br>
+- England, United Kingdom - 14 </br>
+- Ankara, Turkey - 12 </br>
+- Colorado, United States - 2 </br>
+- Belize District, Belize - 2 </br>
+- Central Federal District, Russia - 1 </br>
+- North Holland, Netherlands - 2 </br>
+- Sao Paulo, Brazil - 1 </br>
+- Oregon, United States - 1 </br>
+- Northwestern Federal District, Russia - 1 </br>
