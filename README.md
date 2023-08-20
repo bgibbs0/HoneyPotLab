@@ -1,4 +1,4 @@
-<h1>Honey Pot Lab</h1>
+<h1>Azure Honeypot Lab</h1>
 
 <h2>Description</h2>
 This project consists of spinning up a virtual machine in Microsoft Azure that will be used as a honeypot. The honeypot VM will be connected to Log Analytics Workspace and Azure Sentinel (SIEM). These connections will populate the failed RDP (Remote Desktop) logs into Microsoft Sentinel, allowing us to plot the failed connection attempts on a world map. This lab uses Josh Madakor's <a href=https://youtu.be/RoZeVbbZ0o0">SIEM tutorial video</a> as guidance.
