@@ -32,7 +32,7 @@ Virtual Machine (VM) - a digital version of a physical computer that can run in 
 
 <h2>Lab Walkthrough</h2>
 
-To begin the lab, I first deployed a virtual machine  in Azure. The virtual machine was named "honeypotvm" and deployed in the West US 3 region. It was imaged with Windows 10 Pro, version 22H2.
+To begin the lab, I first deployed a virtual machine  in Azure. The virtual machine was named `honeypotvm` and deployed in the West US 3 region. It was imaged with Windows 10 Pro, version 22H2.
 </br>
 
 <p align="center">
@@ -41,7 +41,7 @@ Azure Virtual Machine: <br/>
   </p>
 </br>
 
-I then created my admin login with username "brianadmin" and allowed RDP (port 3389) to remotley connect to the virtual machine.
+I then created my admin login with username `brianadmin` and allowed RDP (port 3389) to remotley connect to the virtual machine.
 </br>
 
 <p align="center">
@@ -66,7 +66,7 @@ Azure Virtual Machine: <br/>
   </p>
 </br>
 
-The VM was provisioned a public IP address of 20.120.88.213. This allowed me connect to the VM through Remote Desktop using my "brianadmin" credentials. 
+The VM was provisioned a public IP address of `20.120.88.213`. This allowed me connect to the VM through Remote Desktop using my `brianadmin` credentials. 
 </br>
 <p align="center">
 Azure Virtual Machine: <br/>
@@ -82,7 +82,7 @@ Log Analytics Workspace: <br/>
   </p>
 </br>
 
-I then navigated to Microsoft Sentinel and configured a connection to "log-honeypot" where Log Analytics Workspace will be storing the logs from the VM. With this connection established, Microsoft Sentinel is able to contextualize the data for easier interpretation.
+I then navigated to Microsoft Sentinel and configured a connection to `log-honeypot` where Log Analytics Workspace will be storing the logs from the VM. With this connection established, Microsoft Sentinel is able to contextualize the data for easier interpretation.
 </br>
 <p align="center">
 Microsoft Sentinel: <br/>
@@ -227,9 +227,9 @@ It is crucial that organizations properly harden their devices. Some hardening t
 - Disabling default usernames and passwords
 - Disabling and removing unused protocols and services
 - Securing remote access
-- Properly configuring firewall to only allow accepted traffic
+- Properly configure firewall to only allow accepted traffic
 - Geofence IP addresses from countries that are not trusted
 - Routinely patch equipment with security updates
 </br>
 
-IF an organization does not follow proper hardening of their devices, it is only a matter of time and resources until an attacker breaches their network.
+If an organization does not implement proper hardening of their devices, it is only a matter of time and resources until an attacker breaches their network.
